@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/galeria.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="../icons/LOGOCANTINA.jpg" type="image/jpg">
+    <title>Cantina Armazém 32</title>
+</head>
+<body>
+    <center>
+        <header>
+            <img class="logo-cantina" src="../icons/LOGOCANTINA.jpg" width="200px" height="200px">
+            <nav>
+                <a href="index.html">Nossa história</a>
+                <a href="../html/cardapiosemanal.html">Cardápio Geral</a>
+                <a href="../html/galeria.html">Galeria</a>
+                <a href="https://forms.gle/NeddcXGFKwBEYkQe6" target="_blank">Nos avalie</a>
+                <a href="../html/contatoeloc.html">Localização</a>
+            </nav>
+        </header>
+    </center>
+    <hr>
+    <center><h1 class="texto-com-fundo">2011</h1></center><br>
+    <center><img class="minha-imagem" src="../icons/291.JPG"></img>
+    <img class="minha-imagem" src="../icons/292.JPG"></img>
+    <img class="minha-imagem" src="../icons/293.JPG"></img>
+    <img class="minha-imagem" src="../icons/294.JPG"></img>
+    <img class="minha-imagem" src="../icons/295.JPG"></img>
+    <img class="minha-imagem" src="../icons/298.JPG"></img>
+    <img class="minha-imagem" src="../icons/299.JPG"></img>
+    <img class="minha-imagem" src="../icons/300.JPG"></img>
+    <img class="minha-imagem" src="../icons/301.JPG"></img>
+    <img class="minha-imagem" src="../icons/302.JPG"></img></center>
+
+    <hr>
+    <center><h1 class="texto-com-fundo">2013</h1></center><br>
+    <center><img class="minha-imagem" src="../icons/303.png" width="500px" height="650px"></img> </center>
+
+    <hr>
+    <center><h1 class="texto-com-fundo">2020</h1></center><br>
+    <center><img class="minha-imagem" src="../icons/308.png"></img></center>
+    
+    <hr>
+    <center><h1 class="texto-com-fundo">2022</h1></center><br>
+    <center>
+        <img class="minha-imagem" src="../icons/304.png" width="600px" height="600px"></img>
+        <img class="minha-imagem" width="600px" height="600px" src="../icons/305.png"></img><br>
+        <img class="minha-imagem" width="600px" height="600px"src="../icons/teste.svg"></img>
+        <img class="minha-imagem" width="600px" height="600px"src="../icons/teste2.svg"></img>
+    </center>
+
+    <script>
+        window.addEventListener('load', () => {
+            const imagens = document.querySelectorAll('.minha-imagem');
+            imagens.forEach((img, index) => {
+                setTimeout(() => {
+                    img.classList.add('aparecer');
+                }, index * 100);
+            });
+        });
+    </script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/contatoeloc.css">
+    <link rel="icon" href="../icons/LOGOCANTINA.jpg" type="image/jpg">
+    <title>Cantina Armazém 32</title>
+    <style>
+        .map-container {
+            position: relative;
+            width: 50%;
+            max-width: 500px;
+            padding-bottom: 37.5%;
+            height: 0;
+            overflow: hidden;
+            margin: 20px auto;
+            border: 2px solid #343c84;
+            border-radius: 8px;
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .map-container {
+                width: 70%;
+                padding-bottom: 52.5%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .map-container {
+                width: 90%;
+                padding-bottom: 56.25%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <img class="logo-cantina" src="../icons/LOGOCANTINA.jpg" width="200px" height="200px">
+            <nav>
+                <a href="../../index.html">Nossa história</a>
+                <a href="../html/cardapiosemanal.html">Cardápio Geral</a>
+                <a href="../html/galeria.html">Galeria</a>
+                <a href="https://forms.gle/NeddcXGFKwBEYkQe6" target="_blank">Nos avalie</a>
+                <a href="../html/contatoeloc.html">Localização</a>
+            </nav>
+        </header>
+    </center>
+    <hr>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3645.8065817686343!2d-46.30225742465741!3d-23.96727877852294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce0399812835b3%3A0x54715a5a45e0119e!2sCantina%20Armaz%C3%A9m%2032!5e0!3m2!1spt-BR!2sbr!4v1727565022933!5m2!1spt-BR!2sbr"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </div>
+    <hr>
+</body>
+</html>
